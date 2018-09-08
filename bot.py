@@ -20,3 +20,4 @@ def handle_t(message):
             temp = data["main"]["temp"]
             bot.send_message(message.chat.id, "Температура в {}: {} C".format(city, temp))
 bot.polling(none_stop=True, interval=0)
+zdes bil ia
